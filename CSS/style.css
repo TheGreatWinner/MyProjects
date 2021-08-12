@@ -1,0 +1,108 @@
+*{
+    padding: 0;;
+    margin: 0;
+}
+body{
+    background-size:cover;
+}
+header{
+    background-color: black;
+    height: 5em;
+    
+}
+.logos
+{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.headnav{
+    float: right;
+    margin-top: 33px;
+    margin-right: 55px;
+}
+.headnav a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 7px;
+    margin-right: 8px;
+}
+.headnav a:hover{
+    color: red;
+    background: blue;
+    transform: 0.5s ease-in-out;
+}
+
+.sidebar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 100px;
+    
+}
+.sidebar li{
+    list-style: square;
+    margin-bottom: 5px;
+}
+/* form */
+.LoginFormClass{
+    float: right;
+    border: 2px solid red;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    background-color: seashell;
+    margin-top: 5%;
+}
+.LoginFormClass h2{
+    text-align: center;
+}
+.Logcredentials input{
+    height: 1.5em;
+}
+#LoginButton input{
+    width: 100%;
+    height: 1.8em;
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+.container{
+    /* border: 2px solid rgb(185, 11, 11); */
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.PBox{
+    border: 3px solid white;
+    width: 22%;
+    float: left;
+    margin-right: 12px;
+    height: 15em;
+    padding: 7px;
+    background-color: rgb(172, 187, 201);
+}
+.PBox h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.PBox p{
+    text-align: justify;
+    line-height: 1.25em;
+}
+.PBox a{
+    text-decoration: none;
+    color: rgb(161, 12, 12);
+}
+
+footer{
+    height: 3em;
+    background-color: black;
+    color: white;
+    margin-top: 27%;
+        
+}
+footer h3{
+    text-align: center;
+    padding-top: 5px;
+    padding-top: 10px;
+}
